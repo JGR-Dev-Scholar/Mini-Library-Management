@@ -180,8 +180,3 @@ Then press `Ctrl + Shift + P` → `Java: Clean Java Language Server Workspace` �
 - The `lib/` folder is excluded from the repository via `.gitignore`. Each developer must download and add the JDBC JAR manually.
 - The database password in `DBConnection.java` is **not committed** to the repository. Each developer sets their own locally.
 
----
-
-## 📄 License
-
-This project was created for educational purposes as part of a school programming exercise.
