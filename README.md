@@ -165,7 +165,7 @@ Then press `Ctrl + Shift + P` → `Java: Clean Java Language Server Workspace` �
 
 ## 👥 Authors
 
-> Replace with your group members' names
+> The Developers who worked on this project.
 
 - **Joseph Gabriel A. Roces** - Quality Engineer / Documentation
 - **Sean Patrick Brix V. Salamera** – Data Engineer
