@@ -1,4 +1,4 @@
-# 📚 Mini Library – Cree Ate App
+# 📚 Mini Library Management GUI
 
 A Java Swing desktop application for managing a small book library, built with a MySQL database backend. Developed as a group exercise project.
 
