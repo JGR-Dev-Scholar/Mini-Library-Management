@@ -81,7 +81,7 @@ CREATE TABLE IF NOT EXISTS books (
 
 -- Default login accounts
 INSERT INTO users (username, password) VALUES
-    ('admin', 'password'),
+    ('admin', 'unlock'),
     ('user',  '1234');
 ```
 
