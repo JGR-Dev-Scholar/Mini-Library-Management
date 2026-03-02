@@ -4,6 +4,17 @@ A Java Swing desktop application for managing a small book library, built with a
 
 ---
 
+## 👥 Authors
+
+> The Developers who worked on this project.
+
+- **Joseph Gabriel A. Roces** - Quality Engineer / Documentation
+- **Sean Patrick Brix V. Salamera** – Data Engineer
+- **Marvin Karl R. Sangco** – SWE BackEnd
+- **Leonard Vincent L. Camat** - SWE FrontEnd
+
+---
+
 ## 📋 Features
 
 - 🔐 **Login System** – credentials are stored and verified against a MySQL database
@@ -174,17 +185,6 @@ Then press `Ctrl + Shift + P` → `Java: Clean Java Language Server Workspace` �
 | `user`   | `1234` |
 
 > Credentials can be updated anytime directly in MySQL Workbench.
-
----
-
-## 👥 Authors
-
-> The Developers who worked on this project.
-
-- **Joseph Gabriel A. Roces** - Quality Engineer / Documentation
-- **Sean Patrick Brix V. Salamera** – Data Engineer
-- **Marvin Karl R. Sangco** – SWE BackEnd
-- **Leonard Vincent L. Camat** - SWE FrontEnd
 
 ---
 
