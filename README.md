@@ -40,15 +40,29 @@ A Java Swing desktop application for managing a small book library, built with a
 ## ⚙️ Project Structure
 
 ```
-mini-library/
+MINI-LIBRARY-MANAGEMENT/
 ├── .vscode/
-│   └── settings.json        ← References the JDBC JAR in lib/
+│   └── settings.json
+├── database/
+│   └── mini-library.sql
+├── Documentation/
+│   └── Exer6_WindowB.pdf
 ├── lib/
-│   └── mysql-connector-j-9.6.0.jar   ← Download separately (see setup)
+│   └── mysql-connector-j-9.6.0.jar
 ├── src/
-│   └── pckSamples/
-│       └── Exer6_MiniLibrary.java     ← Main source file
+│   └── minilibrary/                        ← new root package folder
+│       ├── Exer6_MiniLibrary.java          ← entry point (run this)
+│       ├── model/
+│       │   ├── TempBook.java               ← Regular Book model
+│       │   └── TempText.java               ← Textbook model
+│       ├── database/
+│       │   ├── DBConnection.java           ← MySQL connection handler
+│       │   └── BookDatabase.java           ← CRUD operations
+│       └── gui/
+│           ├── LoginGUI.java               ← login screen
+│           └── MainAppGUI.java             ← main app window
 ├── .gitignore
+├── LICENSE
 └── README.md
 ```
 
