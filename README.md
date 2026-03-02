@@ -1,4 +1,4 @@
-# 📚 Mini Library – Cree Ate App
+# 📚 Mini Library Management GUI
 
 A Java Swing desktop application for managing a small book library, built with a MySQL database backend. Developed as a group exercise project.
 
@@ -81,7 +81,7 @@ CREATE TABLE IF NOT EXISTS books (
 
 -- Default login accounts
 INSERT INTO users (username, password) VALUES
-    ('admin', 'password'),
+    ('admin', 'unlock'),
     ('user',  '1234');
 ```
 
@@ -165,7 +165,7 @@ Then press `Ctrl + Shift + P` → `Java: Clean Java Language Server Workspace` �
 
 ## 👥 Authors
 
-> Replace with your group members' names
+> The Developers who worked on this project.
 
 - **Joseph Gabriel A. Roces** - Quality Engineer / Documentation
 - **Sean Patrick Brix V. Salamera** – Data Engineer
@@ -180,8 +180,3 @@ Then press `Ctrl + Shift + P` → `Java: Clean Java Language Server Workspace` �
 - The `lib/` folder is excluded from the repository via `.gitignore`. Each developer must download and add the JDBC JAR manually.
 - The database password in `DBConnection.java` is **not committed** to the repository. Each developer sets their own locally.
 
----
-
-## 📄 License
-
-This project was created for educational purposes as part of a school programming exercise.
