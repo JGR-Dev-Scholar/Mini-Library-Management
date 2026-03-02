@@ -1,4 +1,5 @@
 package src;
+
 import javax.swing.*;
 import javax.swing.border.*;
 import javax.swing.table.*;
@@ -94,7 +95,7 @@ class DBConnection {
     // ── Change these three values to match your DataBase setup ──
     private static final String URL      = "jdbc:mysql://localhost:3306/mini_library";
     private static final String USER     = "root";
-    private static final String PASSWORD = ""; // ← Your database password here
+    private static final String PASSWORD = " "; // ← Your database password here
 
     private static java.sql.Connection conn = null;
 
