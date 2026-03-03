@@ -1,10 +1,10 @@
-# 📚 Mini Library Management GUI
+# Mini Library Management GUI
 
 A Java Swing desktop application for managing a small book library, built with a MySQL database backend. Developed as a group exercise project.
 
 ---
 
-## 👥 Authors
+## Authors
 
 > The Developers who worked on this project.
 
@@ -15,7 +15,7 @@ A Java Swing desktop application for managing a small book library, built with a
 
 ---
 
-## 📋 Features
+## Features
 
 - 🔐 **Login System** – credentials are stored and verified against a MySQL database
 - 📗 **Regular Books** – add, edit, and delete regular book records
@@ -26,7 +26,7 @@ A Java Swing desktop application for managing a small book library, built with a
 
 ---
 
-## 🖼️ App Preview
+## App Preview
 
 | Screen | Description |
 |--------|-------------|
@@ -36,7 +36,7 @@ A Java Swing desktop application for managing a small book library, built with a
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Technology | Purpose |
 |------------|---------|
@@ -48,7 +48,7 @@ A Java Swing desktop application for managing a small book library, built with a
 
 ---
 
-## ⚙️ Project Structure
+## Project Structure
 
 ```
 MINI-LIBRARY-MANAGEMENT/
@@ -79,7 +79,7 @@ MINI-LIBRARY-MANAGEMENT/
 
 ---
 
-## 🗄️ Database Setup
+## Database Setup
 
 **1. Open MySQL Workbench and run the following SQL:**
 
@@ -126,7 +126,7 @@ SELECT * FROM users;
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - [Java JDK 17+](https://www.oracle.com/java/technologies/downloads/)
@@ -177,7 +177,7 @@ Then press `Ctrl + Shift + P` → `Java: Clean Java Language Server Workspace` �
 
 ---
 
-## 🔑 Default Login Credentials
+## Default Login Credentials
 
 | Username | Password |
 |----------|----------|
@@ -188,7 +188,7 @@ Then press `Ctrl + Shift + P` → `Java: Clean Java Language Server Workspace` �
 
 ---
 
-## 📝 Notes
+## Notes
 
 - Passwords are stored as **plain text** in the database — this is intentional for a school exercise. In a real-world application, passwords should be hashed using BCrypt or a similar algorithm.
 - The `lib/` folder is excluded from the repository via `.gitignore`. Each developer must download and add the JDBC JAR manually.
